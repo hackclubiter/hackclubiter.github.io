@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Phantom Sans';
+    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff') format('woff'), url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #121217;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    font-family: Phantom Sans;
+}
+.container {
+    
+    width: 90%;
+    height: 95%;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #252429;
+    color: #ecf0f3;
+    position: absolute;
+    
+}
+.brand-logo {
+    height: 70px;
+    width: 70px;
+    background: url("https://avatars.githubusercontent.com/u/73450347?s=70&v=4");
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 30%;
+    box-sizing: border-box;
+}
+.brand-title {
+    
+    margin-top: 4vh;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.brand-title-large {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.brand-title-small {
+    font-weight: 90;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+}
+p,label{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: radial-gradient( ellipse farthest-corner at top left, #ff8c37, #ec3750);
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    color: white;
+    box-shadow: 6px 6px 6px #252429, -6px -6px 6px #273444;
+    transition: 0.5s;
+}
+label {
+    margin-bottom: 4px;
+}
+label:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+button:hover {
+    box-shadow: none;
+}
