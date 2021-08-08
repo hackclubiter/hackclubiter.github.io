@@ -428,6 +428,75 @@ a.site-logo { font-size: 26px; font-weight: 800; text-transform: uppercase; colo
 
 .hc-button { border: 0; border-radius: 4px; cursor: pointer; font-family: inherit; font-weight: 700; border-radius: 99999px; display: inline-flex; -webkit-align-items: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; letter-spacing: 0.009em; -webkit-tap-highlight-color: transparent; -webkit-transition: -webkit-transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out; transition: transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out; text-transform: uppercase; line-height: 1; font-size: 24px; padding-left: 32px; padding-right: 32px; padding-top: 24px; padding-bottom: 24px; background-image: radial-gradient(ellipse farthest-corner at top left, #ff8c37, #ec3750); text-decoration: none; width: 210px; }
 
+.hc-button-small {
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  border-radius: 99999px;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0.009em;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transition: -webkit-transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out;
+  transition: transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 24px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-image: radial-gradient(ellipse farthest-corner at top left, #ff8c37, #ec3750);
+  text-decoration: none;
+  width: 210px;
+  height: 15px;
+}
+
+@media screen and (max-width: 600px) { 
+  .hc-button-small {
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 99999px;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    letter-spacing: 0.009em;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: -webkit-transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out;
+    transition: transform 0.125s ease-in-out, box-shadow 0.125s ease-in-out;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-image: radial-gradient(ellipse farthest-corner at top left, #ff8c37, #ec3750);
+    text-decoration: none;
+    width: 150px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  
+ }
 .hc-button:hover { transform: scale(1.0625); text-decoration: none !important; }
 
 .hc button span:hover { text-decoration: none !important; }
