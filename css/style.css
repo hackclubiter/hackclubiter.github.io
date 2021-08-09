@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; }
 
 /** Links */
 a { color: #ec3750; text-decoration: none; }
-a:hover { color: #ec3750; }
+a:hover { color: #61ec37; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
