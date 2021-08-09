@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang=" en " xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:fb="http://ogp.me/ns/fb#"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta property="og:image" content="" />
+<!-- CSS & Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700&display=swap"
+    rel="stylesheet">
+<!-- Icons and Meta Images -->
+  <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<!-- Title -->
+<link rel="stylesheet" href="./css/style.css"><title>Hack Club ITER</title>
+</head>
+<a href="https://hackclub.com/"><img style="position: absolute; top: 0; left: 10px; border: 0; width: 100px; z-index: 999;" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club"/></a>
+<body class="home-body">
+<header class="site-header" role="banner"><div class="navbar-area">
+    <div class="container">
+      <nav class="site-navbar">
+        <a class="site-title" rel="author" href="/"><img src="./img/logos/logo-no-bg.png" href="" width="50px"></a>
+
+        <ul>
+            <li><a class="red-link" href="https://iter.hackclub.com/apply">Apply</a></li>
+            <li><a class="red-link" href="/workshops/">Workshops</a></li>
+        </ul>
+        <a class="hc-button-small" href="https://iter.hackclub.com/apply">
+            <span style="color: white;">Join us! 🚀</span>
+        </a>
+        <button class="nav-toggler">
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </div>
+  <script>
+    const navToggler = document.querySelector('.nav-toggler');
+    const navMenu = document.querySelector('.site-navbar ul');
+    const navLinks = document.querySelectorAll('.site-navbar a');
+    const header = document.querySelector('.site-header');
+
+allEventListners();
+
+function allEventListners() {
+  navToggler.addEventListener('click', togglerClick);
+  navLinks.forEach( elem => elem.addEventListener('click', navLinkClick));
+}
+
+function togglerClick() {
+  navToggler.classList.toggle('toggler-open');
+  navMenu.classList.toggle('open');
+}
+
+function navLinkClick() {
+  if(navMenu.classList.contains('open')) {
+    navToggler.click();
+  }
+}
+  </script>
+</header>
+<main class="page-content" aria-label="Content" >
+    <h1 class="page-heading" style="color: #ec3750; margin-bottom: 1%;">Join Discord</h1>
+</main>
+<div class="wrapper">
+    <div class="comunidade-div">
+        <div class="comunidade-square" style="background-image: url(./img/gif/discord.gif);">
+            <h2>Join the discord server</h2>
+            <p>
+                Join the community here young minds get chance to showcase their talent.
+            </p>
+            <a href="https://discord.gg/kybd2zY8Fn" target="_blank">Join →</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="rodape_area bg_color">
+  <div class="rodape_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div
+            class="f_widget about-widget pl_70 wow fadeInLeft"
+            data-wow-delay="0.4s"
+            style="
+              visibility: visible;
+              animation-delay: 0.4s;
+              animation-name: fadeInLeft;
+            "
+          >
+            <h3 class="f-title f_600 t_color f_size_18">Hack Club ITER</h3>
+            <ul class="list-unstyled f_list" style="margin-left: 0">
+                <li>
+                    <a href="iter.hackclub.com">Home</a>
+                  </li>
+              <li>
+                <a href="/#">Workshops</a>
+              </li>
+              <li>
+                <a href="/#">Projects</a>
+              </li>
+              <li>
+                <a href="/code-of-conduct">Code of Conduct</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div
+            class="f_widget about-widget pl_70 wow fadeInLeft"
+            data-wow-delay="0.6s"
+            style="
+              visibility: visible;
+              animation-delay: 0.6s;
+              animation-name: fadeInLeft;
+            "
+          >
+            <h3 class="f-title f_600 t_color f_size_18">Hack Club</h3>
+            <ul class="list-unstyled f_list" style="margin-left: 0">
+              <li>
+                <a href="https://hackclub.com/">Website</a>
+              </li>
+
+              <li>
+                <a href="https://hackclub.com/press/">Press</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div
+            class="f_widget social-widget pl_70 wow fadeInLeft"
+            data-wow-delay="0.8s"
+            style="
+              visibility: visible;
+              animation-delay: 0.8s;
+              animation-name: fadeInLeft;
+            "
+          >
+            <h3 class="f-title f_600 t_color f_size_18">Connect with us!</h3>
+            <div class="f_social_icon">
+              <a href="https://www.instagram.com/hackclubiter/" class="fab fa-instagram"></a>
+              <a href="https://twitter.com/hackclubiter" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-discord"></a>
+              <a href="https://github.com/hackclubiter" class="fab fa-github"></a>
+              <br>
+              <a href="https://www.linkedin.com/company/hackclubiter/" class="fab fa-linkedin"></a>
+            </div>
+            <div
+              class="f_widget company_widget wow fadeInLeft"
+              data-wow-delay="0.2s"
+              style="
+                visibility: visible;
+                animation-delay: 0.2s;
+                animation-name: fadeInLeft;
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h3 class="f-title f_600 t_color f_size_18">Talk to us!</h3>
+          <a href="mailto:hackclubiter@gmail.com">hackclubiter@gmail.com</a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  <p style="display: flex; justify-content: center; padding-bottom: 1%; font-size: 15px;">&#169 Hack Club ITER 2021</p>
+</footer>
+</body>
+
+</html>
