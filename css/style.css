@@ -262,7 +262,7 @@ table td { border: 1px solid #e8e8e8; }
 .welcome-icon { box-sizing: border-box; background-color: #ff5858; border-radius: 18px; line-height: 0; padding: 8px; margin-bottom: 4px; display: inline-block; margin-bottom: 20px; }
 
 /** Site header */
-.site-header { position: relative; width: 100%; background: #fff; }
+.site-header { top: 0px; position: fixed; width: 100%; background: rgb(255, 255, 255); z-index: 1000;}
 
 .site-title { margin-top: 10px; margin-bottom: 20px; margin-left: 30px; width: 20%; }
 
@@ -373,6 +373,8 @@ table { color: #1f2d3d; }
 
 /* default css start */
 .header-area { background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80); background-position: center center; background-size: cover; }
+
+.header-area-team { background: linear-gradient(35deg, rgba(170, 12, 110, 0.808), rgba(123, 13, 167, 0.87)),  url(https://cloud-eqnxoc6tg-hack-club-bot.vercel.app/0image.png); background-position: center center; background-size: cover; }
 
 /* default css end */
 /* navbar regular css start */
@@ -601,4 +603,58 @@ button:focus { outline: none !important; }
     margin-top: 32px;
     margin-bottom: 16px;
 }
+}
+/* Discord */
+.css-iy7rtr {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  overflow: hidden;
+  position: relative;
+}
+.css-1rwtsb9 {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: absolute;
+  inset: 0px;
+  height: 100%;
+  z-index: -1;
+  width: 100vw;
+  object-fit: cover;
+}
+.css-11xnwal {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: radial-gradient( ellipse farthest-corner at top left, #00c3ff, #ab00f5 );
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.css-1n6teq3 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    width: 100%;
+    max-width: container;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    z-index: 999;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    color: white;
+    position: relative;
+    overflow: hidden;
 }
