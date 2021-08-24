@@ -599,3 +599,57 @@ button:focus { outline: none !important; }
     margin-bottom: 16px;
 }
 }
+/* Discord */
+.css-iy7rtr {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  overflow: hidden;
+  position: relative;
+}
+.css-1rwtsb9 {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  position: absolute;
+  inset: 0px;
+  height: 100%;
+  z-index: -1;
+  width: 100vw;
+  object-fit: cover;
+}
+.css-11xnwal {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: radial-gradient( ellipse farthest-corner at top left, #00c3ff, #ab00f5 );
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.css-1n6teq3 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    width: 100%;
+    max-width: container;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    z-index: 999;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
