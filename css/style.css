@@ -369,6 +369,8 @@ table { color: #1f2d3d; }
 /* default css start */
 .header-area { background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80); background-position: center center; background-size: cover; }
 
+.header-area-team { background: linear-gradient(35deg, rgba(170, 12, 110, 0.808), rgba(123, 13, 167, 0.87)),  url(https://cloud-eqnxoc6tg-hack-club-bot.vercel.app/0image.png); background-position: center center; background-size: cover; }
+
 /* default css end */
 /* navbar regular css start */
 .site-navbar { display: flex; justify-content: space-between; align-items: center; }
