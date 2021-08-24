@@ -64,30 +64,33 @@
         navToggler.classList.toggle('toggler-open');
         navMenu.classList.toggle('open');
       }
+      
+function navLinkClick() {
+  if(navMenu.classList.contains('open')) {
+    navToggler.click();
+  }
+}
+  </script>
+</header>
+<main class="home-content" aria-label="Content" style="padding-bottom: 2rem;">
+<div class="wrapper">
+<div class="home">
+    <div class="resizer1"></div>
+    <div class="home-notification">
+      <p style="padding-bottom: 8px;">We are currently not hiring members for core team!
+      </p>
+    </div>
 
-      function navLinkClick() {
-        if (navMenu.classList.contains('open')) {
-          navToggler.click();
-        }
-      }
-    </script>
-  </header>
-  <main class="home-content" aria-label="Content" style="padding-bottom: 2rem;">
-    <div class="wrapper">
-      <div class="home">
-        <div class="resizer1"></div>
         <h1 class="page-heading">
           Welcome to
           <br>
           <span class="transparent">Hack&nbsp;Club ITER</span>.
         </h1>
         <hr>
-        <p style="color: aliceblue; text-align: center; margin-bottom: 4rem; margin-top: 2rem;  "> <strong>Hack Club
-            ITER</strong> is a student community where different students together learn, share, and build. The main
-          intention of this community is to create an awareness of learning and make it fun.
+        <p style="color: aliceblue; text-align: center; margin-bottom: 4rem; margin-top: 2rem;  "> <strong>Hack Club ITER</strong> is a student community where different students    together learn, share, and build. The main intention of this community is to create an awareness of learning and make it fun.
         </p>
-        <div class="center">
-          <div class="up-button" style="margin-bottom: 2rem;">
+    <!-- <div class="center">
+        <div class="up-button" style="margin-bottom: 2rem;">
             <a class="hc-button" href="https://iter.hackclub.com/apply">
               <span style="color: white;">Apply for Core Team</span>
             </a>
@@ -105,11 +108,12 @@
             </a>
           </div>
         </div>
-      </div>
-    </div>
-  </main>
-  <div id="hackclub-info">
-    <div class="hackclub-exp">
+    </div> -->
+</div>
+</div>
+</main>
+<div id="hackclub-info">
+  <div class="hackclub-exp">
       <h1 id="initial-header" style="color: #ec3750;">What is a Hack Club?</h1>
       <p>
         The
