@@ -304,9 +304,14 @@ table td { border: 1px solid #e8e8e8; }
 .page-content { padding: 30px 0; flex: 1; }
 
 .page-heading { text-align: center; color: white; font-size: 96px; text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+@media only screen and (max-width: 1300px){
+  .site-title{
+    margin-left: 4em;
+  }
+}
 
 @media only screen and (max-width: 767px) { .page-heading { font-size: 96px; }
-  .site-title { width: 50%; } }
+  .site-title { width: 50%;margin-left: 4em; } }
 .post-list-heading { font-size: 42px; }
 
 .post-list { margin-left: 0; list-style: none; }
