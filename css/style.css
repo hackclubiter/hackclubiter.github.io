@@ -262,7 +262,7 @@ table td { border: 1px solid #e8e8e8; }
 .welcome-icon { box-sizing: border-box; background-color: #ff5858; border-radius: 18px; line-height: 0; padding: 8px; margin-bottom: 4px; display: inline-block; margin-bottom: 20px; }
 
 /** Site header */
-.site-header { position: relative; width: 100%; background: #fff; }
+.site-header { top: 0px; position: fixed; width: 100%; background: rgb(255, 255, 255); z-index: 1000;}
 
 .site-title { margin-top: 10px; margin-bottom: 20px; margin-left: 30px; width: 20%; }
 
