@@ -376,6 +376,8 @@ table { color: #1f2d3d; }
 
 .header-area-team { background: linear-gradient(35deg, rgba(170, 12, 110, 0.808), rgba(123, 13, 167, 0.87)),  url(https://cloud-eqnxoc6tg-hack-club-bot.vercel.app/0image.png); background-position: center center; background-size: cover; }
 
+.header-area-happening { background: linear-gradient(75deg, rgba(4, 13, 143, 0.808), rgba(4, 136, 26, 0.972)),  url(https://cloud-qyxzm2djh-hack-club-bot.vercel.app/0image.png); background-position: center center; background-size: cover; }
+
 /* default css end */
 /* navbar regular css start */
 .site-navbar { display: flex; justify-content: space-between; align-items: center; }
