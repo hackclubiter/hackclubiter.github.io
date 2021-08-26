@@ -424,7 +424,7 @@ a.site-logo { font-size: 26px; font-weight: 800; text-transform: uppercase; colo
   .intro-area h2 { font-size: 36px; margin-bottom: 15px; }
   /* navbar css for mobile end */ }
 /* mobile breakpoint end */
-.red-link { color: #ec3750 !important; font-weight: bold !important; }
+.red-link { color: #ec3750 !important; font-weight: 500 !important; }
 
 .grow-header { margin-top: 2%; text-align: center; }
 
