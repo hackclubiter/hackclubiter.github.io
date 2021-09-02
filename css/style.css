@@ -778,3 +778,8 @@ button:focus { outline: none !important; }
     opacity: 0.3;
   }
 }
+
+/* hc-btn-nofill */
+.hc-btn-nofill{
+  height: auto;  color: #ffffff; border: 2px solid currentColor; padding: 16px 32px 16px 32px; border-radius: 99999px;  
+}
