@@ -2087,9 +2087,9 @@ button:focus {
   .homebg-animation {
     transform: rotate(90deg);
     position: absolute;
-    top: 0;
+    top: -30px;
     bottom: 0;
-    width: 122%;
+    width: 130%;
     height: 100%;
     opacity: 0.3;
   }
