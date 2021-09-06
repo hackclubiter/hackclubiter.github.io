@@ -11,7 +11,7 @@
 
 ### About
 
-Wanto to know what Hack Club is and about Hack Club ITER? Then make sure to checkout our about section!
+Want to know what Hack Club is and about Hack Club ITER? Then make sure to checkout our about section!
 
 ![image](https://user-images.githubusercontent.com/53933493/132179455-3a1dfe78-87c8-4a02-a346-ae9734194955.png)
 
