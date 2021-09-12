@@ -49,9 +49,9 @@ If you want get in contact with us or wnat to check our social media handles the
 
 ## Want to contribute?
 
-Here are afew guidelines to keep in mind before contributing
+Here are a few guidelines to keep in mind before contributing
 
-1. Riase an issue on whatever bug fix or feature you wanna work on.
+1. Raise an issue on whatever bug fix or feature you wanna work on.
 2. State what you want to work on and also the solution that you plan to implement.
 3. After reviewing your suggestions we'll approve you request.
 
