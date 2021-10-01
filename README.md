@@ -61,3 +61,8 @@ And after working on your fix before creating a pull request make sure you check
 2. If you are working on anything from the issues then make sure to add the isuue no. along with the screenshots.
 
 If you want to know more about our contributing guidelines then see [here](https://github.com/hackclubiter/contribution-guidelines/blob/main/README.md)
+
+## Important Note:
+1. We at Hack Club ITER don't allow the resuse of our website, its code and assets.
+2. If anyone want to use it then he/she has to seek the person from the admin (hackclubiter@gmail.com)
+3. If we find anyone violating this we'll report the doer asap.
