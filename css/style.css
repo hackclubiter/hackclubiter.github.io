@@ -1186,7 +1186,7 @@ table td {
   }
   .site-title {
     width: 50%;
-    margin-left: 4em;
+    margin-left: 0em;
   }
 }
 .post-list-heading {
