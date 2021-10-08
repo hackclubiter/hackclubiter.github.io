@@ -9,6 +9,7 @@
   transition: 0.5s ease-out;
 }
 
+
 .css-ojj0fs:hover{
   transform: scale(1.1) translateZ(0px);
   transition: 0.5s ease-in;
@@ -130,9 +131,81 @@
 }
 
 .css-19vzo5b:hover {
+
+  transform: scale(1.2) translateZ(0px);
+}
+
+.css-8soujw {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (min-width: 30em) {
+  .css-8soujw {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .css-8soujw {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .css-8soujw {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .css-8soujw {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.css-qt1wnn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid #252222;
+  min-width: 240px;
+}
+
+.css-l4jt5k {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.crt2{
+  background: linear-gradient( to bottom, #ffca08 0%, #f70067 100%);
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 32px;
+        margin-right: 32px;
+        border-radius: 10px;
+        padding-bottom: 16px;
+        transition: 0.5s ease-out;
+        max-width: fit-content;
+}
+
   
   transform: scale(1.2) translateZ(0px);
 }
+
 
 
 
