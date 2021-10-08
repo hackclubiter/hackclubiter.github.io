@@ -9,7 +9,8 @@
   transition: 0.5s ease-out;
 }
 
-.css-ojj0fs:hover {
+
+.css-ojj0fs:hover{
   transform: scale(1.1) translateZ(0px);
   transition: 0.5s ease-in;
 }
@@ -130,6 +131,7 @@
 }
 
 .css-19vzo5b:hover {
+
   transform: scale(1.2) translateZ(0px);
 }
 
@@ -199,3 +201,11 @@
         transition: 0.5s ease-out;
         max-width: fit-content;
 }
+
+  
+  transform: scale(1.2) translateZ(0px);
+}
+
+
+
+

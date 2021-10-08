@@ -685,10 +685,35 @@ table td {
   transition: all 0.2s linear;
 }
 
-.rodape_top .f_social_icon a:hover {
+/* .rodape_top .f_social_icon a:hover {
   background: #ec3750;
   border-color: #ec3750;
   color: white;
+  text-decoration: none;
+} */
+.rodape_top .f_social_icon a.fa-instagram:hover {
+  background: linear-gradient(-45deg, #833ab4, #fd1d1d, #fcb045);
+  color: #fff;
+  text-decoration: none;
+}
+.rodape_top .f_social_icon a.fa-twitter:hover {
+  background: #1DA1F2;
+  color: #fff;
+  text-decoration: none;
+}
+.rodape_top .f_social_icon a.fa-discord:hover {
+  background: #7289d9;
+  color: #fff;
+  text-decoration: none;
+}
+.rodape_top .f_social_icon a.fa-github:hover {
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+}
+.rodape_top .f_social_icon a.fa-linkedin:hover {
+  background: #0e76a8;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -726,7 +751,7 @@ table td {
   border-radius: 8px;
   padding-left: 8px;
   padding-right: 8px;
-  margin-left: -8px;
+  margin-left: -5px;
   margin-right: -8px;
   background-color: #5bffcd;
   color: #095365;
@@ -1001,7 +1026,7 @@ table td {
 }
 
 .site-title {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 30px;
   width: 20%;
@@ -1161,7 +1186,7 @@ table td {
   }
   .site-title {
     width: 50%;
-    margin-left: 4em;
+    margin-left: 0em;
   }
 }
 .post-list-heading {
@@ -1477,7 +1502,7 @@ a.site-logo {
     width: 100%;
     height: calc(100vh - 60px);
     left: 0;
-    top: 60px;
+    top: 80px;
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -1654,7 +1679,42 @@ a.site-logo {
     height: 15px;
     margin-right: 10px;
   }
+  .nav-toggler {
+    margin-right: -1px;
+  }
 }
+
+@media screen and (max-width: 380px) {
+  .hc-button-small {
+    margin-left: -25px;
+  }
+  .nav-toggler {
+    margin-right: -2px;
+    margin-left: 5px;
+  }
+  .hc-button-small span {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .hc-button-small {
+    margin-left: -10px;
+  }
+  .nav-toggler {
+    margin-right: -2px;
+  }
+  .hc-button-small span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .hc-btn-nofill {
+    font-size: 20px;
+  }
+}
+
 .hc-button:hover {
   transform: scale(1.0625);
   text-decoration: none !important;
