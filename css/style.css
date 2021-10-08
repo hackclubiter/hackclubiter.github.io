@@ -1186,7 +1186,7 @@ table td {
   }
   .site-title {
     width: 50%;
-    margin-left: 4em;
+    margin-left: 0em;
   }
 }
 .post-list-heading {
@@ -1705,7 +1705,7 @@ a.site-logo {
     margin-right: -2px;
   }
   .hc-button-small span {
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 
