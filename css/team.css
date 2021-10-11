@@ -192,19 +192,16 @@
 
 .crt2{
   background: linear-gradient( to bottom, #ffca08 0%, #f70067 100%);
-        margin-top: 16px;
-        margin-bottom: 16px;
-        margin-left: 32px;
-        margin-right: 32px;
-        border-radius: 10px;
-        padding-bottom: 16px;
-        transition: 0.5s ease-out;
-        max-width: fit-content;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  border-radius: 10px;
+  padding-bottom: 16px;
+  transition: 0.5s ease-out;
 }
 
-  
-  transform: scale(1.2) translateZ(0px);
-}
+
 
 
 
