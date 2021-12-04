@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang=" en " xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+  <!-- Meta Contents -->
+  <meta property="og:title" content="Hack Club ITER">
+  <meta property="og:description" content="The Official Website of Hack Club ITER.">
+  <meta property="og:image" content=",/img/logos/logo-no-bg.png">
+  <meta property="og:url" content="https://iter.hackclub.com">
+  <meta name="keywords" content="Hack Club, Hack Club ITER">
+	<!-- CSS & Fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/team.css">
+	<!-- Icons and Meta Images -->
+	<link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<!-- Title -->
+	<title>Hack Club ITER</title>
+</head>
+
+<body class="home-body">
+<!-- Toast Notification -->
+<main style="padding-top: 4rem; position: fixed; bottom: 2rem; left: 5px; z-index: 1000;">
+	<div class="toast-container">
+		<div class="toast-cell">
+			<div class="toast toast-color">
+				<div class="toast-icon">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						<g>
+							<g>
+								<path d="M504.502,75.496c-9.997-9.998-26.205-9.998-36.204,0L161.594,382.203L43.702,264.311c-9.997-9.998-26.205-9.997-36.204,0    c-9.998,9.997-9.998,26.205,0,36.203l135.994,135.992c9.994,9.997,26.214,9.99,36.204,0L504.502,111.7    C514.5,101.703,514.499,85.494,504.502,75.496z"></path>
+							</g>
+						</g>
+					</svg>
+				</div>
+				<div class="toast-content">
+					<p class="toast-header">Join the Discord Server 🚀</p>
+					<p class="toast-message">Join the Official Discord Community of Hack Club ITER.<br><a href="https://iter.hackclub.com/discord" target="blank">Join now.</a></p>
+				</div>
+				<div class="toast-close">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+						<path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script id="rendered-js">
+	jQuery(document).ready(function() {
+		jQuery('.toast-close').click(function(e) {
+			e.preventDefault();
+			var parent = $(this).parent('.toast');
+			parent.fadeOut("slow", function() {
+				$(this).remove();
+			});
+		});
+	});
+	</script>
+</main>
+	<header class="site-header" role="banner">
+		<div class="navbar-area">
+			<div class="container">
+				<nav class="site-navbar">
+					<a class="site-title" rel="author" href="/"><img src="./img/logos/logo-no-bg.png" href="" width="50px"></a>
+					<ul>
+						<li><a class="red-link" href="#about">About</a></li>
+						<li><a class="red-link" href="/workshops">Workshops</a></li>
+            <li><a class="red-link" href="/projects">Projects</a></li>
+            <li><a class="red-link" href="./team">Team</a></li>
+            <li><a class="red-link" href="#contact">Contact</a></li>
+					</ul>
+					<a class="hc-button-small" href="https://forms.gle/R63FcsBeYy77QuhV6"> <span style="color: white;">Join us! 🚀</span> </a>
+					<button class="nav-toggler"> <span></span> </button>
+				</nav>
+			</div>
+		</div>
+		<script>
+		const navToggler = document.querySelector('.nav-toggler');
+		const navMenu = document.querySelector('.site-navbar ul');
+		const navLinks = document.querySelectorAll('.site-navbar a');
+		const header = document.querySelector('.site-header');
+		allEventListners();
+
+		function allEventListners() {
+			navToggler.addEventListener('click', togglerClick);
+			navLinks.forEach(elem => elem.addEventListener('click', navLinkClick));
+		}
+
+		function togglerClick() {
+			navToggler.classList.toggle('toggler-open');
+			navMenu.classList.toggle('open');
+		}
+
+		function navLinkClick() {
+			if(navMenu.classList.contains('open')) {
+				navToggler.click();
+			}
+		}
+		</script>
+
+	</header>
+	<main class="main-home-content" aria-label="Content" style="padding-bottom: 2rem; padding-top: 4rem; z-index: 1;">
+
+	<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_aujfrjaj.json"  background="transparent"  speed="1" class="homebg-animation" loop autoplay></lottie-player>
+		<div class="wrapper" style="z-index: 1000;">
+			<div class="home">
+				<div class="resizer1"></div>
+				<h1 class="page-heading">
+          Welcome to
+          <br>
+          <span class="transparent">Hack&nbsp;Club ITER</span>.
+        </h1>
+				<hr>
+				<p style="color: aliceblue; text-align: center; margin-bottom: 4rem; margin-top: 2rem;  "> <strong>Hack Club ITER</strong> is a student community where different students together learn, share, and build. The main intention of this community is to create an awareness of learning and make it fun. </p>
+				
+				<div style="text-align: center; width: 100%; padding-top: 2rem; padding-bottom: 2rem;"> 
+				<a href="https://iter.hackclub.com/workshops" target="blank" class="hc-btn-nofill">
+					What's Happening?
+				  </a> 
+				</div>
+          </div>
+        </div>
+    </div></div>
+		</div>
+	</main>
+	<div id="hackclub-info">
+		<div class="hackclub-exp" id="about">
+			<h1 id="initial-header" style="color: #ec3750;">What is a Hack Club?</h1>
+			<p> The <a href="https://hackclub.com">Hack Club</a> is a non-profit global network of young makers and student-led programming clubs where young people create projects and thrive to think big and make an impact with technology around the world. </p>
+			<h2 id="initial-header" style="color: #ec3750;">We at .<span class="marca-rosa" style="color: aliceblue;">Hack
+          Club ITER!</span> 🚀</h1>
+        <p style="font-size: 20px;">
+          Hack Club ITER is a community where students from different branches and domains can come together and tinker
+          with various new and upcoming techs. We aim to spread technical awareness among students who are new to this
+          field and are confused about where to start.
+        </p>
+    </div>
+
+    <div class="inscricao" style="background-color: #8492a6;padding-top: 1rem; padding-bottom: 1rem;">
+      <h3 style="margin-top: 50px; color: rgb(255, 255, 255); margin-bottom: 0px;"></h3>
+      <h2 class="home-h2" style="margin-bottom: 30px; color: aliceblue;">
+        Join<span class="marca-rosa" style="color:rgb(229, 255, 0); margin-left: 10px;">Hack Club ITER</span> today!
+      </h2>
+			<ul class="ws-grid">
+				<li>
+					<div class="exp-box" style="background: linear-gradient(32deg, rgba(24, 218, 255, 0.9) 0%, rgba(91, 255, 205, 0.9) 100%);">
+						<div class="ini-info">
+							<h3>
+                <svg fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"
+                  xmlns="http://www.w3.org/2000/svg" aria-label="code" viewBox="0 0 32 32"
+                  preserveAspectRatio="xMidYMid meet" fill="currentColor" width="48" height="48" title="code">
+                  <g>
+                    <path
+                      d="M18.634,9.438c0.276,-0.478 0.888,-0.642 1.366,-0.366c0.478,0.276 0.642,0.888 0.366,1.366l-7,12.124c-0.276,0.478 -0.888,0.642 -1.366,0.366c-0.478,-0.276 -0.642,-0.888 -0.366,-1.366l7,-12.124Zm4.348,11.452c-0.354,-0.424 -0.296,-1.055 0.128,-1.408l0.245,-0.205c1.478,-1.236 2.216,-1.854 3.529,-3.277c-1.338,-1.451 -2.052,-2.045 -3.612,-3.347l-0.162,-0.135c-0.424,-0.353 -0.482,-0.984 -0.128,-1.408c0.353,-0.424 0.942,-0.423 1.409,-0.128c1.609,1.018 2.609,2.018 4.2,3.964c0.219,0.312 0.409,0.664 0.409,1.054c0,0.39 -0.19,0.742 -0.409,1.053c-1.591,1.947 -2.591,2.947 -4.2,3.964l-0.001,0.001c-0.424,0.354 -1.055,0.296 -1.408,-0.128Zm-14.092,-1.408c0.424,0.353 0.482,0.984 0.128,1.408c-0.353,0.424 -0.984,0.482 -1.408,0.128l-0.001,-0.001c-1.609,-1.017 -2.609,-2.017 -4.2,-3.964c-0.219,-0.311 -0.409,-0.663 -0.409,-1.053c0,-0.39 0.19,-0.742 0.409,-1.054c1.591,-1.946 2.591,-2.946 4.2,-3.964c0.467,-0.295 1.056,-0.296 1.409,0.128c0.354,0.424 0.296,1.055 -0.128,1.408l-0.162,0.135c-1.56,1.302 -2.274,1.896 -3.612,3.347c1.313,1.423 2.051,2.041 3.529,3.277l0.245,0.205Z">
+                    </path>
+                  </g>
+                </svg>
+                <br>
+
+                <span class="ini-title">
+                  1. Perfect Coding Environment
+                </span>
+                <br>
+                We have a community around 400+ members who are ready to help you at any moment.
+              </h3> </div>
+					</div>
+					</a>
+				</li>
+				<li>
+					<div class="exp-box" style="background: linear-gradient(to bottom, rgba(255, 212, 64, 0.9) 0%, rgba(255, 88, 88, 0.9) 100%);">
+						<div class="ini-info">
+							<h3 style="color: #5d114c;">
+                <svg fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"
+                  xmlns="http://www.w3.org/2000/svg" aria-label="admin" viewBox="0 0 32 32"
+                  preserveAspectRatio="xMidYMid meet" fill="currentColor" width="48" height="48" title="admin">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M21.437 17.023a1 1 0 0 1 .785.977v2.2H23a1 1 0 0 1 .907 1.42l-2.222 4.8a1 1 0 0 1-1.907-.42v-2.2H19a1 1 0 0 1-.907-1.42l2.222-4.8a1 1 0 0 1 1.122-.557zM19.834 16.977C20.714 16.173 21 14.873 21 13a5 5 0 0 0-10 0c0 1.873.286 3.173 1.165 3.977a8.029 8.029 0 0 0-3.6 4.062c-.162.408-.213.939.162 1.168.792.485 1.632-.457 2.105-1.257a5.997 5.997 0 0 1 5.48-2.942c1.132.058 2.373-.055 3.24-.784a8.75 8.75 0 0 0 .282-.247zM19 13c0 1.683-.271 2.241-.47 2.456-.162.176-.68.544-2.53.544-1.85 0-2.368-.368-2.53-.544C13.27 15.24 13 14.683 13 13a3 3 0 1 1 6 0z">
+                  </path>
+                </svg>
+                <br>
+
+                <span class="ini-title" style="color: #5d114c;">
+                  2. Regular Workshops
+                </span>
+                <br>
+                We conduct regular workshops on recent tech to give students a knowledge about what going on.
+              </h3> </div>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="exp-box" style="background: linear-gradient(-32deg, #6f31b7 14%, #fb558e 82%);">
+						<div class="ini-info">
+							<h3 style="color: white;">
+                <svg fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"
+                  xmlns="http://www.w3.org/2000/svg" aria-label="friend" viewBox="0 0 32 32"
+                  preserveAspectRatio="xMidYMid meet" fill="currentColor" width="48" height="48" title="friend">
+                  <g>
+                    <path
+                      d="M 11.4912 8.97717C 12.3703 8.17303 12.6567 6.87286 12.6567 5C 12.6567 2.23859 10.4181 0 7.65668 0C 4.89526 0 2.65668 2.23859 2.65668 5C 2.65668 6.87286 2.94302 8.17303 3.82211 8.97717C 2.19708 9.86633 0.914429 11.3031 0.222412 13.0393C 0.0597229 13.4474 0.0085144 13.9776 0.38324 14.207C 1.17523 14.692 2.01566 13.7498 2.48837 12.9504C 3.53268 11.1844 5.45636 10 7.65668 10C 7.76151 10 7.86569 10.0027 7.96918 10.008C 9.10062 10.066 10.3418 9.95276 11.209 9.22382C 11.3059 9.14246 11.4006 9.06012 11.4912 8.97717ZM 10.6567 5C 10.6567 6.68262 10.3854 7.24109 10.1871 7.45593C 10.0244 7.63208 9.50742 8 7.65668 8C 5.80594 8 5.28891 7.63208 5.12628 7.45593C 4.92798 7.24109 4.65668 6.68262 4.65668 5C 4.65668 3.34314 5.99982 2 7.65668 2C 9.31354 2 10.6567 3.34314 10.6567 5ZM 12.6567 11.88C 13.9552 10.6 15.2537 10.92 15.9029 11.56C 18.4999 14.12 13.4531 17.5 12.6567 17.5C 11.8602 17.5 6.81342 14.12 9.41043 11.56C 10.0597 10.92 11.3582 10.6 12.6567 11.88Z"
+                      transform="translate(8.34332 8)"></path>
+                  </g>
+                </svg>
+                <br>
+                <span class="ini-title" style="color: white;">
+                  3. Guidance and Mentorship
+                </span>
+                <br>
+                We have mentors with us who are ready to guide you always!
+              </h3> </div>
+						</a>
+					</div>
+				</li>
+			</ul> <a href="https://iter.hackclub.com/join" class="hc-button" style="height: auto; margin-bottom: 2%; margin-top: 1%; color: white">
+        Join Us 🚀
+      </a> </div>
+	</div>
+  <!-- Recent Events & Workshops -->
+  <main class="header-area-happening" aria-label="Content" style="background-color:#252429; padding: 5rem 0 5rem 0;">
+    <div class="wrapper">
+    <h1 class="post-title" style="color: #ffffff;">What's Happening!</h1>
+    </div>
+    <div class="ws-section">
+      <ul class="ws-grid">   
+        <li>
+          <div class="ws-box" style="background-image: url(https://cloud-241hwcnco-hack-club-bot.vercel.app/0image.png); background-size: 104%;">
+          <a href="https://iter.hackclub.com" class="wslink">
+              <div class="ws-info">
+                  <h3>Release of Official Website</h3>
+                  <p>We have released our official website! 🚀 <br><span style="font-weight: bold; color: #009b3a;">RELEASE</span></p>
+              </div>
+          </a>
+          </div>
+      </li>
+      <li>
+          <div class="ws-box" style="background-image: url(https://cloud-22g39abna-hack-club-bot.vercel.app/0image.png); background-size: cover;">
+          <a href="https://asiablog.hackclub.com/clubs/codathon" class="wslink">
+              <div class="ws-info">
+                  <h3>Codathon by Hack Club ITER!</h3>
+                  <p>Recent Blog <br><span style="font-weight: bold; color: #9b0000;">BLOG</span</p>
+              </div>
+          </a>
+          </div>
+      </li>
+    <li>
+      <div class="ws-box" style="background-image: url(https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80); background-size: cover;">
+      <a href="https://github.com/hackclubiter/Codathon-WebDev" class="wslink">
+          <div class="ws-info">
+              <h3>7 Days of Web Development</h3>
+              <p>Successfully completed our codathon! <br><span style="font-weight: bold; color: #17009b;">EVENT</span</p>
+          </div>
+      </a>
+      </div>
+  </li>
+      </ul>
+      <div style="text-align: center;">      
+        <a href="https://iter.hackclub.com/workshops" class="hc-button" style="height: auto; margin-top: 1%; color: white; text-align: center;">
+        Find More →
+      </a>
+    </div>
+    </div>
+    
+  </main>
+	<!-- Team -->
+	<main class="header-area-team" style="padding-top: 4rem; padding-bottom:4rem;">
+		<div class="wrapper">
+			<h2 class="home-h2" style="margin-bottom: 30px; color: #f1c40f; text-align: center; ">
+      Meet the <span class="marca-rosa" style="color:rgb(255, 255, 255); padding-left: 7.5px; margin-left:2px; background-color: #009b3a;">Team</span> of HCI!
+  </h2>
+			<div class="css-xc5w91">
+				<div class="css-b63oki">
+					<div class="css-1lo2zhn"> <img src="https://raw.githubusercontent.com/hackclubiter/cdn/main/mainTeam/SaswatSamal.png" alt="member profile pic" class="css-amg1nq">
+						<p style="color: aliceblue; padding-top: 1rem; font-size: 1.6rem;">Saswat Samal</p>
+						<p style="color: aliceblue;font-size: 0.8rem;"> <i>lead</i> </p>
+					</div>
+					<div class="css-1lo2zhn"><img src="https://raw.githubusercontent.com/hackclubiter/cdn/main/mainTeam/SaswatMohanty.png" alt="member profile pic" class="css-amg1nq">
+						<p style="color: aliceblue; padding-top: 1rem; font-size: 1.6rem;">Saswat Mohanty</p>
+						<p style="color: aliceblue; font-size: 0.8rem;"> <i>lead</i> </p>
+					</div>
+					<div class="css-1lo2zhn"><img src="https://raw.githubusercontent.com/hackclubiter/cdn/main/mainTeam/SanketSPattanaik.png" alt="member profile pic" class="css-amg1nq">
+						<p style="color: aliceblue; padding-top: 1rem; font-size: 1.6rem;">Sanket S Pattanaik</p>
+						<p style="color: aliceblue;font-size: 0.8rem;"> <i>Web Dev Lead</i> </p>
+					</div>
+					<div class="css-1lo2zhn"><img src="https://raw.githubusercontent.com/hackclubiter/cdn/main/mainTeam/SunandaSamantaray.png" alt="member profile pic" class="css-amg1nq">
+						<p style="color: aliceblue; padding-top: 1rem; font-size: 1.6rem;">Sunanda Samantaray</p>
+						<p style="color: aliceblue;font-size: 0.8rem;"> <i>Content Lead</i> </p>
+					</div>
+				</div>
+			</div>
+			<div style="text-align: center; width: 100%; padding-top: 2rem;"> <a href="https://iter.hackclub.com/team" style="height: auto; margin-left: 2%; margin-top: 1%; color: #ffffff;
+  border: 2px solid currentColor; padding: 16px 32px 16px 32px; border-radius: 99999px; ">
+  Meet the team →
+</a> </div>
+	</main>
+	<!-- Join Discord Server -->
+	<main class="css-iy7rtr">
+		<video autoplay="" loop="" playsinline="" poster="https://cloud-nykwtt0z7.vercel.app/2020-07-25_a1tcva4ch6mmr6j2cfmcb4e9ync3yhar.png" class="css-1rwtsb9">
+			<source src="https://cdn.glitch.com/2d637c98-ed35-417a-bf89-cecc165d7398%2Foutput-no-duplicate-frames.hecv.mp4?v=1590780967658" type="video/mp4; codecs=hevc">
+			<source src="https://cdn.glitch.com/2d637c98-ed35-417a-bf89-cecc165d7398%2Foutput-no-duplicate-frames.webm?v=1590781698834" type="video/webm; codecs=vp9,opus">
+			<source src="https://cdn.glitch.com/2d637c98-ed35-417a-bf89-cecc165d7398%2Foutput-no-duplicate-frames.mov?v=1590781491717" type="video/quicktime">
+		</video>
+		<div class="css-11xnwal"></div>
+		<div class="css-1n6teq3">
+			<h1 style="font-size: 2rem;text-decoration: underline;">~ Join the Discord Server ~</h1>
+			<h2 style="font: 300; font-size: 4rem;">Come for the skills, <br> stay for the people.</h2>
+			<p style="margin-bottom: 3rem;">Join the community here young minds get chance to showcase their talent.</p> <a href="./discord.html" style="height: auto; margin-left: 2%; margin-top: 1%; color: #ffffff;
+    border: 2px solid currentColor; padding: 8px 16px 8px 16px; border-radius: 99999px;">Join our Discord →</a></div>
+	</main>
+	<!-- Sponsor and Supporter -->
+	<main>
+		<div class="clubes-uni-div">
+			<div class="clubes-uni-square">
+				<h2 style="color: black;"><span class="marca-rosa" style="color: #fedf00; text-align: center!;">Sponsored</span> & <span class="marca-azul">Supported</span>  by</h2> <img src="./img/sponsors/stickermule.svg" height="50px" style="padding-right: 1rem"> <img src="./img/sponsors/replit.svg" alt="" height="50px" style="padding-right: 1rem"> <img src="./img/sponsors/zoom.svg" alt="" height="50px" style="padding-right: 1rem"> </div>
+		</div>
+	</main>
+	<main class="home-content">
+		<div class="comunidade-div">
+			<div class="comunidade-square" style="background-image: url(./img/gif/pc-purple.gif);">
+				<h1>Full Website is Under Development!</h1>
+				<p> We are currently developing the full website. If you want to add some spark to it then </p> <a href="https://github.com/hackclubiter/hackclubiter.github.io/issues/new?assignees=saswatsamal%2C+Saswat7101&labels=feature-request&template=feature_request.md&title=%5BFEATURE%5D" target="_blank">Let us know →</a> </div>
+		</div>
+		<hr> </main>
+
+
+	<!-- Footer -->
+	<footer class="rodape_area bg_color">
+		<div class="rodape_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="
+              visibility: visible;
+              animation-delay: 0.4s;
+              animation-name: fadeInLeft;
+            ">
+							<h3 class="f-title f_600 t_color f_size_18">Hack Club ITER</h3>
+							<ul class="list-unstyled f_list" style="margin-left: 0">
+								<li> <a href="/workshops">Workshops</a> </li>
+								<li> <a href="/projects">Projects</a> </li>
+								<li> <a href="/code-of-conduct">Code of Conduct</a> </li>
+								<li> <a href="/discord.html">Discord</a> </li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="
+              visibility: visible;
+              animation-delay: 0.6s;
+              animation-name: fadeInLeft;
+            ">
+							<h3 class="f-title f_600 t_color f_size_18">Hack Club</h3>
+							<ul class="list-unstyled f_list" style="margin-left: 0">
+								<li> <a href="https://hackclub.com/">Website</a> </li>
+								<li> <a href="https://hackclub.com/press/">Press</a> </li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="
+              visibility: visible;
+              animation-delay: 0.8s;
+              animation-name: fadeInLeft;
+            ">
+							<h3 class="f-title f_600 t_color f_size_18" id="contact">Connect with us!</h3>
+							<div class="f_social_icon">
+								<a href="https://www.instagram.com/hackclubiter/" class="fab fa-instagram"></a>
+								<a href="https://twitter.com/hackclubiter" class="fab fa-twitter"></a>
+								<a href="https://iter.hackclub.com/discord.html/" class="fab fa-discord"></a>
+								<a href="https://github.com/hackclubiter" class="fab fa-github"></a>
+								<br>
+								<a href="https://www.linkedin.com/company/hackclubiter/" class="fab fa-linkedin"></a>
+							</div>
+							<div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="
+                visibility: visible;
+                animation-delay: 0.2s;
+                animation-name: fadeInLeft;
+              "></div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h3 class="f-title f_600 t_color f_size_18">Talk to us!</h3> <a href="mailto:hackclubiter@gmail.com">hackclubiter@gmail.com</a> </div>
+				</div>
+			</div>
+		</div>
+		<p style="display: flex; justify-content: center; padding-bottom: 1%; font-size: 15px;">&#169 Hack Club ITER 2021 </p>
+	</footer>
+<!-- Lottie File Script -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
