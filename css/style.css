@@ -2197,3 +2197,69 @@ button:focus {
   width: auto;
   height: fit-content;
 }
+
+/* Under Const */
+.under-const {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #3e3e3e;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 32px;
+}
+.under-const .header{
+  
+  font-size: 2.5rem;
+
+  font-weight: 700;
+  color: #3e3e3e;
+}
+.under-const .header span{
+  background-color: #ec3750;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+}
+.footer-uc{
+
+position: fixed;
+bottom: 0;
+}
+.footer-left{
+  position: relative;
+  float: left;
+  padding-left: 20px;
+}
+
+.footer-right{
+  position: fixed;
+  float: right;
+  padding-right: 20px;
+  right: 10px !important;
+}
+@media screen and (max-width: 500px) {
+  .footer-uc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    }
+  .footer-left{
+    display: none;
+  }
+  .footer-right{
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+  }
+}
+  
