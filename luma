@@ -1,0 +1,8 @@
+<html>
+	<title>Opening Luma...</title>
+
+</head>
+    <body>
+        <script>window.location.replace("https://lu.ma/hci-git")</script>
+    </body>
+</html>
